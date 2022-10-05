@@ -5,6 +5,10 @@ html {
 
 :root {
   --wht: #f8f8f8;
+  --dp: #2d132c;
+  --mp: #801336;
+  --lp: #c72c41;
+  --o: #c72c41;
 }
 
 * {
@@ -27,6 +31,8 @@ body {
   font-weight: 400;
   letter-spacing: 0.01rem;
   line-height: 1.6;
+  color: var(--wht);
+  background-color: var(--dp);
 }
 
 /*************

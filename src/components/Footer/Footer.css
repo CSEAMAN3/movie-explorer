@@ -18,6 +18,16 @@ Typography
 Layout
 **************/
 
+.footer {
+  width: 100%;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 /*************
 Media Queries
 **************/

@@ -1,9 +1,12 @@
-import React from "react";
+import "./Header.css";
 
 export default function Header() {
   return (
-    <div>
-      <h1>this is the header</h1>
-    </div>
+    <header className="header">
+      <div className="header-container">
+        <h1 className="header-heading">Movie Explorer</h1>
+        <button className="sign-up-btn">Sign Up</button>
+      </div>
+    </header>
   );
 }

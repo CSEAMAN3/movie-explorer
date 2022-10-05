@@ -1,5 +1,11 @@
 # Project Name
 
+Create a .env file with your OMBD API key in this format
+
+```
+REACT_
+```
+
 **Author**: Your Name Goes Here
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 

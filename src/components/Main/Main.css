@@ -6,18 +6,143 @@ General Elements
 Images
 **************/
 
+.movie-img {
+  margin-bottom: 1rem;
+}
+
 /*************
-Buttons / Links
+Buttons / Links / inputs
 **************/
+
+.search-input {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  border: none;
+  border-radius: 2px;
+  padding: 0.75rem;
+  width: 40vw;
+  max-width: 500px;
+  margin-right: 0.25rem;
+}
+
+.explore-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  color: var(--wht);
+  background-color: var(--o);
+  border: none;
+  border-radius: 2px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
 
 /*************
 Typography
 **************/
 
+.hero-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.hero-subheading {
+  margin-bottom: 0.5rem;
+}
+
+.hero-signup-content {
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: var(--o);
+  margin-bottom: 1rem;
+}
+
+.error {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.movie-heading {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.movie-plot-content {
+  margin-bottom: 0.5rem;
+}
+
+.cast-heading {
+  text-transform: uppercase;
+  font-size: 0.825rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+}
+
+.cast-content {
+  font-size: 0.825rem;
+  letter-spacing: 0.075em;
+}
+
 /*************
 Layout
 **************/
 
+.main {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1024px;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prev-movies {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.movie {
+  margin-bottom: 3rem;
+}
+
+.movie-content-container {
+  background-color: var(--o);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
 /*************
 Media Queries
 **************/
+
+@media (min-width: 800px) {
+  .prev-movies {
+    margin: 4rem 0;
+  }
+
+  .movie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .img-contianer {
+    width: 48%;
+  }
+
+  .movie-content-container {
+    width: 48%;
+  }
+
+  .movie-img {
+    margin-bottom: 0;
+  }
+}
